@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835824181F5C9B91006F239F /* btAlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835823EF1F5C9B91006F239F /* btAlignedAllocator.cpp */; };
+		835824191F5C9B91006F239F /* btConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835823F21F5C9B91006F239F /* btConvexHull.cpp */; };
+		8358241A1F5C9B91006F239F /* btConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835823F41F5C9B91006F239F /* btConvexHullComputer.cpp */; };
+		8358241B1F5C9B91006F239F /* btGeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835823F81F5C9B91006F239F /* btGeometryUtil.cpp */; };
+		8358241C1F5C9B91006F239F /* btPolarDecomposition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824021F5C9B91006F239F /* btPolarDecomposition.cpp */; };
+		8358241D1F5C9B91006F239F /* btQuickprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824071F5C9B91006F239F /* btQuickprof.cpp */; };
+		8358241E1F5C9B91006F239F /* btSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358240B1F5C9B91006F239F /* btSerializer.cpp */; };
+		8358241F1F5C9B91006F239F /* btSerializer64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358240D1F5C9B91006F239F /* btSerializer64.cpp */; };
+		835824201F5C9B91006F239F /* btThreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824101F5C9B91006F239F /* btThreads.cpp */; };
+		835824211F5C9B91006F239F /* btVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824141F5C9B91006F239F /* btVector3.cpp */; };
 		8385E3DA1F5B5D010096980E /* ApplePhysics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385E3D91F5B5D010096980E /* ApplePhysics.m */; };
 		8385E3DB1F5B5D010096980E /* ApplePhysics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8385E3D81F5B5D010096980E /* ApplePhysics.h */; };
 /* End PBXBuildFile section */
@@ -25,6 +35,48 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		835823EE1F5C9B91006F239F /* btAabbUtil2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btAabbUtil2.h; path = LinearMath/btAabbUtil2.h; sourceTree = "<group>"; };
+		835823EF1F5C9B91006F239F /* btAlignedAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btAlignedAllocator.cpp; path = LinearMath/btAlignedAllocator.cpp; sourceTree = "<group>"; };
+		835823F01F5C9B91006F239F /* btAlignedAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btAlignedAllocator.h; path = LinearMath/btAlignedAllocator.h; sourceTree = "<group>"; };
+		835823F11F5C9B91006F239F /* btAlignedObjectArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btAlignedObjectArray.h; path = LinearMath/btAlignedObjectArray.h; sourceTree = "<group>"; };
+		835823F21F5C9B91006F239F /* btConvexHull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHull.cpp; path = LinearMath/btConvexHull.cpp; sourceTree = "<group>"; };
+		835823F31F5C9B91006F239F /* btConvexHull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btConvexHull.h; path = LinearMath/btConvexHull.h; sourceTree = "<group>"; };
+		835823F41F5C9B91006F239F /* btConvexHullComputer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHullComputer.cpp; path = LinearMath/btConvexHullComputer.cpp; sourceTree = "<group>"; };
+		835823F51F5C9B91006F239F /* btConvexHullComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btConvexHullComputer.h; path = LinearMath/btConvexHullComputer.h; sourceTree = "<group>"; };
+		835823F61F5C9B91006F239F /* btCpuFeatureUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btCpuFeatureUtility.h; path = LinearMath/btCpuFeatureUtility.h; sourceTree = "<group>"; };
+		835823F71F5C9B91006F239F /* btDefaultMotionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btDefaultMotionState.h; path = LinearMath/btDefaultMotionState.h; sourceTree = "<group>"; };
+		835823F81F5C9B91006F239F /* btGeometryUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btGeometryUtil.cpp; path = LinearMath/btGeometryUtil.cpp; sourceTree = "<group>"; };
+		835823F91F5C9B91006F239F /* btGeometryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btGeometryUtil.h; path = LinearMath/btGeometryUtil.h; sourceTree = "<group>"; };
+		835823FA1F5C9B91006F239F /* btGrahamScan2dConvexHull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btGrahamScan2dConvexHull.h; path = LinearMath/btGrahamScan2dConvexHull.h; sourceTree = "<group>"; };
+		835823FB1F5C9B91006F239F /* btHashMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btHashMap.h; path = LinearMath/btHashMap.h; sourceTree = "<group>"; };
+		835823FC1F5C9B91006F239F /* btIDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btIDebugDraw.h; path = LinearMath/btIDebugDraw.h; sourceTree = "<group>"; };
+		835823FD1F5C9B91006F239F /* btList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btList.h; path = LinearMath/btList.h; sourceTree = "<group>"; };
+		835823FE1F5C9B91006F239F /* btMatrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btMatrix3x3.h; path = LinearMath/btMatrix3x3.h; sourceTree = "<group>"; };
+		835823FF1F5C9B91006F239F /* btMatrixX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btMatrixX.h; path = LinearMath/btMatrixX.h; sourceTree = "<group>"; };
+		835824001F5C9B91006F239F /* btMinMax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btMinMax.h; path = LinearMath/btMinMax.h; sourceTree = "<group>"; };
+		835824011F5C9B91006F239F /* btMotionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btMotionState.h; path = LinearMath/btMotionState.h; sourceTree = "<group>"; };
+		835824021F5C9B91006F239F /* btPolarDecomposition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btPolarDecomposition.cpp; path = LinearMath/btPolarDecomposition.cpp; sourceTree = "<group>"; };
+		835824031F5C9B91006F239F /* btPolarDecomposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btPolarDecomposition.h; path = LinearMath/btPolarDecomposition.h; sourceTree = "<group>"; };
+		835824041F5C9B91006F239F /* btPoolAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btPoolAllocator.h; path = LinearMath/btPoolAllocator.h; sourceTree = "<group>"; };
+		835824051F5C9B91006F239F /* btQuadWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btQuadWord.h; path = LinearMath/btQuadWord.h; sourceTree = "<group>"; };
+		835824061F5C9B91006F239F /* btQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btQuaternion.h; path = LinearMath/btQuaternion.h; sourceTree = "<group>"; };
+		835824071F5C9B91006F239F /* btQuickprof.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btQuickprof.cpp; path = LinearMath/btQuickprof.cpp; sourceTree = "<group>"; };
+		835824081F5C9B91006F239F /* btQuickprof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btQuickprof.h; path = LinearMath/btQuickprof.h; sourceTree = "<group>"; };
+		835824091F5C9B91006F239F /* btRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btRandom.h; path = LinearMath/btRandom.h; sourceTree = "<group>"; };
+		8358240A1F5C9B91006F239F /* btScalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btScalar.h; path = LinearMath/btScalar.h; sourceTree = "<group>"; };
+		8358240B1F5C9B91006F239F /* btSerializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSerializer.cpp; path = LinearMath/btSerializer.cpp; sourceTree = "<group>"; };
+		8358240C1F5C9B91006F239F /* btSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btSerializer.h; path = LinearMath/btSerializer.h; sourceTree = "<group>"; };
+		8358240D1F5C9B91006F239F /* btSerializer64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSerializer64.cpp; path = LinearMath/btSerializer64.cpp; sourceTree = "<group>"; };
+		8358240E1F5C9B91006F239F /* btSpatialAlgebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btSpatialAlgebra.h; path = LinearMath/btSpatialAlgebra.h; sourceTree = "<group>"; };
+		8358240F1F5C9B91006F239F /* btStackAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btStackAlloc.h; path = LinearMath/btStackAlloc.h; sourceTree = "<group>"; };
+		835824101F5C9B91006F239F /* btThreads.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btThreads.cpp; path = LinearMath/btThreads.cpp; sourceTree = "<group>"; };
+		835824111F5C9B91006F239F /* btThreads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btThreads.h; path = LinearMath/btThreads.h; sourceTree = "<group>"; };
+		835824121F5C9B91006F239F /* btTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btTransform.h; path = LinearMath/btTransform.h; sourceTree = "<group>"; };
+		835824131F5C9B91006F239F /* btTransformUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btTransformUtil.h; path = LinearMath/btTransformUtil.h; sourceTree = "<group>"; };
+		835824141F5C9B91006F239F /* btVector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btVector3.cpp; path = LinearMath/btVector3.cpp; sourceTree = "<group>"; };
+		835824151F5C9B91006F239F /* btVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btVector3.h; path = LinearMath/btVector3.h; sourceTree = "<group>"; };
+		835824161F5C9B91006F239F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = LinearMath/CMakeLists.txt; sourceTree = "<group>"; };
+		835824171F5C9B91006F239F /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = premake4.lua; path = LinearMath/premake4.lua; sourceTree = "<group>"; };
 		8385E3D51F5B5D010096980E /* libApplePhysics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libApplePhysics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8385E3D81F5B5D010096980E /* ApplePhysics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePhysics.h; sourceTree = "<group>"; };
 		8385E3D91F5B5D010096980E /* ApplePhysics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePhysics.m; sourceTree = "<group>"; };
@@ -60,6 +112,48 @@
 		8385E3D71F5B5D010096980E /* ApplePhysics */ = {
 			isa = PBXGroup;
 			children = (
+				835823EE1F5C9B91006F239F /* btAabbUtil2.h */,
+				835823EF1F5C9B91006F239F /* btAlignedAllocator.cpp */,
+				835823F01F5C9B91006F239F /* btAlignedAllocator.h */,
+				835823F11F5C9B91006F239F /* btAlignedObjectArray.h */,
+				835823F21F5C9B91006F239F /* btConvexHull.cpp */,
+				835823F31F5C9B91006F239F /* btConvexHull.h */,
+				835823F41F5C9B91006F239F /* btConvexHullComputer.cpp */,
+				835823F51F5C9B91006F239F /* btConvexHullComputer.h */,
+				835823F61F5C9B91006F239F /* btCpuFeatureUtility.h */,
+				835823F71F5C9B91006F239F /* btDefaultMotionState.h */,
+				835823F81F5C9B91006F239F /* btGeometryUtil.cpp */,
+				835823F91F5C9B91006F239F /* btGeometryUtil.h */,
+				835823FA1F5C9B91006F239F /* btGrahamScan2dConvexHull.h */,
+				835823FB1F5C9B91006F239F /* btHashMap.h */,
+				835823FC1F5C9B91006F239F /* btIDebugDraw.h */,
+				835823FD1F5C9B91006F239F /* btList.h */,
+				835823FE1F5C9B91006F239F /* btMatrix3x3.h */,
+				835823FF1F5C9B91006F239F /* btMatrixX.h */,
+				835824001F5C9B91006F239F /* btMinMax.h */,
+				835824011F5C9B91006F239F /* btMotionState.h */,
+				835824021F5C9B91006F239F /* btPolarDecomposition.cpp */,
+				835824031F5C9B91006F239F /* btPolarDecomposition.h */,
+				835824041F5C9B91006F239F /* btPoolAllocator.h */,
+				835824051F5C9B91006F239F /* btQuadWord.h */,
+				835824061F5C9B91006F239F /* btQuaternion.h */,
+				835824071F5C9B91006F239F /* btQuickprof.cpp */,
+				835824081F5C9B91006F239F /* btQuickprof.h */,
+				835824091F5C9B91006F239F /* btRandom.h */,
+				8358240A1F5C9B91006F239F /* btScalar.h */,
+				8358240B1F5C9B91006F239F /* btSerializer.cpp */,
+				8358240C1F5C9B91006F239F /* btSerializer.h */,
+				8358240D1F5C9B91006F239F /* btSerializer64.cpp */,
+				8358240E1F5C9B91006F239F /* btSpatialAlgebra.h */,
+				8358240F1F5C9B91006F239F /* btStackAlloc.h */,
+				835824101F5C9B91006F239F /* btThreads.cpp */,
+				835824111F5C9B91006F239F /* btThreads.h */,
+				835824121F5C9B91006F239F /* btTransform.h */,
+				835824131F5C9B91006F239F /* btTransformUtil.h */,
+				835824141F5C9B91006F239F /* btVector3.cpp */,
+				835824151F5C9B91006F239F /* btVector3.h */,
+				835824161F5C9B91006F239F /* CMakeLists.txt */,
+				835824171F5C9B91006F239F /* premake4.lua */,
 				8385E3D81F5B5D010096980E /* ApplePhysics.h */,
 				8385E3D91F5B5D010096980E /* ApplePhysics.m */,
 			);
@@ -124,7 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8358241D1F5C9B91006F239F /* btQuickprof.cpp in Sources */,
+				8358241F1F5C9B91006F239F /* btSerializer64.cpp in Sources */,
+				8358241E1F5C9B91006F239F /* btSerializer.cpp in Sources */,
+				835824211F5C9B91006F239F /* btVector3.cpp in Sources */,
+				835824201F5C9B91006F239F /* btThreads.cpp in Sources */,
+				8358241C1F5C9B91006F239F /* btPolarDecomposition.cpp in Sources */,
+				835824191F5C9B91006F239F /* btConvexHull.cpp in Sources */,
+				835824181F5C9B91006F239F /* btAlignedAllocator.cpp in Sources */,
+				8358241A1F5C9B91006F239F /* btConvexHullComputer.cpp in Sources */,
 				8385E3DA1F5B5D010096980E /* ApplePhysics.m in Sources */,
+				8358241B1F5C9B91006F239F /* btGeometryUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +364,7 @@
 				8385E3E01F5B5D010096980E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
