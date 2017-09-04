@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CD02AD23789515AF5D416F876100FE38242DE7E4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD02AD23789515AF5D416F876100FE38242DE7E4" : 9223372036854775807,
+    "0C6DB4923BBCBF329B76C4DC2F7C475654DE356A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3601DB88-4AE1-43C1-8DE4-F7D6C0EBA61F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD02AD23789515AF5D416F876100FE38242DE7E4" : "bullet\/",
+    "0C6DB4923BBCBF329B76C4DC2F7C475654DE356A" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ApplePhysics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ApplePhysics.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/192.168.0.5\/git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C6DB4923BBCBF329B76C4DC2F7C475654DE356A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/worplex\/bullet3",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD02AD23789515AF5D416F876100FE38242DE7E4"
+    }
+  ]
+}
