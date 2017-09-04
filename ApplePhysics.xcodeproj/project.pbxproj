@@ -17,6 +17,15 @@
 		8358241F1F5C9B91006F239F /* btSerializer64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358240D1F5C9B91006F239F /* btSerializer64.cpp */; };
 		835824201F5C9B91006F239F /* btThreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824101F5C9B91006F239F /* btThreads.cpp */; };
 		835824211F5C9B91006F239F /* btVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824141F5C9B91006F239F /* btVector3.cpp */; };
+		835824371F5C9DE2006F239F /* btAxisSweep3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824221F5C9DE2006F239F /* btAxisSweep3.cpp */; };
+		835824381F5C9DE2006F239F /* btBroadphaseProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824261F5C9DE2006F239F /* btBroadphaseProxy.cpp */; };
+		835824391F5C9DE2006F239F /* btCollisionAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824281F5C9DE2006F239F /* btCollisionAlgorithm.cpp */; };
+		8358243A1F5C9DE2006F239F /* btDbvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358242A1F5C9DE2006F239F /* btDbvt.cpp */; };
+		8358243B1F5C9DE2006F239F /* btDbvtBroadphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358242C1F5C9DE2006F239F /* btDbvtBroadphase.cpp */; };
+		8358243C1F5C9DE2006F239F /* btDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8358242E1F5C9DE2006F239F /* btDispatcher.cpp */; };
+		8358243D1F5C9DE2006F239F /* btOverlappingPairCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824301F5C9DE2006F239F /* btOverlappingPairCache.cpp */; };
+		8358243E1F5C9DE2006F239F /* btQuantizedBvh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824331F5C9DE2006F239F /* btQuantizedBvh.cpp */; };
+		8358243F1F5C9DE2006F239F /* btSimpleBroadphase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835824351F5C9DE2006F239F /* btSimpleBroadphase.cpp */; };
 		8385E3DA1F5B5D010096980E /* ApplePhysics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385E3D91F5B5D010096980E /* ApplePhysics.m */; };
 		8385E3DB1F5B5D010096980E /* ApplePhysics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8385E3D81F5B5D010096980E /* ApplePhysics.h */; };
 /* End PBXBuildFile section */
@@ -77,6 +86,27 @@
 		835824151F5C9B91006F239F /* btVector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btVector3.h; path = LinearMath/btVector3.h; sourceTree = "<group>"; };
 		835824161F5C9B91006F239F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = LinearMath/CMakeLists.txt; sourceTree = "<group>"; };
 		835824171F5C9B91006F239F /* premake4.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = premake4.lua; path = LinearMath/premake4.lua; sourceTree = "<group>"; };
+		835824221F5C9DE2006F239F /* btAxisSweep3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btAxisSweep3.cpp; path = BulletCollision/BroadphaseCollision/btAxisSweep3.cpp; sourceTree = "<group>"; };
+		835824231F5C9DE2006F239F /* btAxisSweep3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btAxisSweep3.h; path = BulletCollision/BroadphaseCollision/btAxisSweep3.h; sourceTree = "<group>"; };
+		835824241F5C9DE2006F239F /* btAxisSweep3Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btAxisSweep3Internal.h; path = BulletCollision/BroadphaseCollision/btAxisSweep3Internal.h; sourceTree = "<group>"; };
+		835824251F5C9DE2006F239F /* btBroadphaseInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBroadphaseInterface.h; path = BulletCollision/BroadphaseCollision/btBroadphaseInterface.h; sourceTree = "<group>"; };
+		835824261F5C9DE2006F239F /* btBroadphaseProxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btBroadphaseProxy.cpp; path = BulletCollision/BroadphaseCollision/btBroadphaseProxy.cpp; sourceTree = "<group>"; };
+		835824271F5C9DE2006F239F /* btBroadphaseProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btBroadphaseProxy.h; path = BulletCollision/BroadphaseCollision/btBroadphaseProxy.h; sourceTree = "<group>"; };
+		835824281F5C9DE2006F239F /* btCollisionAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btCollisionAlgorithm.cpp; path = BulletCollision/BroadphaseCollision/btCollisionAlgorithm.cpp; sourceTree = "<group>"; };
+		835824291F5C9DE2006F239F /* btCollisionAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btCollisionAlgorithm.h; path = BulletCollision/BroadphaseCollision/btCollisionAlgorithm.h; sourceTree = "<group>"; };
+		8358242A1F5C9DE2006F239F /* btDbvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDbvt.cpp; path = BulletCollision/BroadphaseCollision/btDbvt.cpp; sourceTree = "<group>"; };
+		8358242B1F5C9DE2006F239F /* btDbvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btDbvt.h; path = BulletCollision/BroadphaseCollision/btDbvt.h; sourceTree = "<group>"; };
+		8358242C1F5C9DE2006F239F /* btDbvtBroadphase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDbvtBroadphase.cpp; path = BulletCollision/BroadphaseCollision/btDbvtBroadphase.cpp; sourceTree = "<group>"; };
+		8358242D1F5C9DE2006F239F /* btDbvtBroadphase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btDbvtBroadphase.h; path = BulletCollision/BroadphaseCollision/btDbvtBroadphase.h; sourceTree = "<group>"; };
+		8358242E1F5C9DE2006F239F /* btDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btDispatcher.cpp; path = BulletCollision/BroadphaseCollision/btDispatcher.cpp; sourceTree = "<group>"; };
+		8358242F1F5C9DE2006F239F /* btDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btDispatcher.h; path = BulletCollision/BroadphaseCollision/btDispatcher.h; sourceTree = "<group>"; };
+		835824301F5C9DE2006F239F /* btOverlappingPairCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btOverlappingPairCache.cpp; path = BulletCollision/BroadphaseCollision/btOverlappingPairCache.cpp; sourceTree = "<group>"; };
+		835824311F5C9DE2006F239F /* btOverlappingPairCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btOverlappingPairCache.h; path = BulletCollision/BroadphaseCollision/btOverlappingPairCache.h; sourceTree = "<group>"; };
+		835824321F5C9DE2006F239F /* btOverlappingPairCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btOverlappingPairCallback.h; path = BulletCollision/BroadphaseCollision/btOverlappingPairCallback.h; sourceTree = "<group>"; };
+		835824331F5C9DE2006F239F /* btQuantizedBvh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btQuantizedBvh.cpp; path = BulletCollision/BroadphaseCollision/btQuantizedBvh.cpp; sourceTree = "<group>"; };
+		835824341F5C9DE2006F239F /* btQuantizedBvh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btQuantizedBvh.h; path = BulletCollision/BroadphaseCollision/btQuantizedBvh.h; sourceTree = "<group>"; };
+		835824351F5C9DE2006F239F /* btSimpleBroadphase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = btSimpleBroadphase.cpp; path = BulletCollision/BroadphaseCollision/btSimpleBroadphase.cpp; sourceTree = "<group>"; };
+		835824361F5C9DE2006F239F /* btSimpleBroadphase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btSimpleBroadphase.h; path = BulletCollision/BroadphaseCollision/btSimpleBroadphase.h; sourceTree = "<group>"; };
 		8385E3D51F5B5D010096980E /* libApplePhysics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libApplePhysics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8385E3D81F5B5D010096980E /* ApplePhysics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePhysics.h; sourceTree = "<group>"; };
 		8385E3D91F5B5D010096980E /* ApplePhysics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePhysics.m; sourceTree = "<group>"; };
@@ -112,6 +142,27 @@
 		8385E3D71F5B5D010096980E /* ApplePhysics */ = {
 			isa = PBXGroup;
 			children = (
+				835824221F5C9DE2006F239F /* btAxisSweep3.cpp */,
+				835824231F5C9DE2006F239F /* btAxisSweep3.h */,
+				835824241F5C9DE2006F239F /* btAxisSweep3Internal.h */,
+				835824251F5C9DE2006F239F /* btBroadphaseInterface.h */,
+				835824261F5C9DE2006F239F /* btBroadphaseProxy.cpp */,
+				835824271F5C9DE2006F239F /* btBroadphaseProxy.h */,
+				835824281F5C9DE2006F239F /* btCollisionAlgorithm.cpp */,
+				835824291F5C9DE2006F239F /* btCollisionAlgorithm.h */,
+				8358242A1F5C9DE2006F239F /* btDbvt.cpp */,
+				8358242B1F5C9DE2006F239F /* btDbvt.h */,
+				8358242C1F5C9DE2006F239F /* btDbvtBroadphase.cpp */,
+				8358242D1F5C9DE2006F239F /* btDbvtBroadphase.h */,
+				8358242E1F5C9DE2006F239F /* btDispatcher.cpp */,
+				8358242F1F5C9DE2006F239F /* btDispatcher.h */,
+				835824301F5C9DE2006F239F /* btOverlappingPairCache.cpp */,
+				835824311F5C9DE2006F239F /* btOverlappingPairCache.h */,
+				835824321F5C9DE2006F239F /* btOverlappingPairCallback.h */,
+				835824331F5C9DE2006F239F /* btQuantizedBvh.cpp */,
+				835824341F5C9DE2006F239F /* btQuantizedBvh.h */,
+				835824351F5C9DE2006F239F /* btSimpleBroadphase.cpp */,
+				835824361F5C9DE2006F239F /* btSimpleBroadphase.h */,
 				835823EE1F5C9B91006F239F /* btAabbUtil2.h */,
 				835823EF1F5C9B91006F239F /* btAlignedAllocator.cpp */,
 				835823F01F5C9B91006F239F /* btAlignedAllocator.h */,
@@ -218,17 +269,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8358243D1F5C9DE2006F239F /* btOverlappingPairCache.cpp in Sources */,
 				8358241D1F5C9B91006F239F /* btQuickprof.cpp in Sources */,
+				8358243A1F5C9DE2006F239F /* btDbvt.cpp in Sources */,
 				8358241F1F5C9B91006F239F /* btSerializer64.cpp in Sources */,
+				8358243F1F5C9DE2006F239F /* btSimpleBroadphase.cpp in Sources */,
 				8358241E1F5C9B91006F239F /* btSerializer.cpp in Sources */,
+				8358243B1F5C9DE2006F239F /* btDbvtBroadphase.cpp in Sources */,
+				835824371F5C9DE2006F239F /* btAxisSweep3.cpp in Sources */,
 				835824211F5C9B91006F239F /* btVector3.cpp in Sources */,
 				835824201F5C9B91006F239F /* btThreads.cpp in Sources */,
 				8358241C1F5C9B91006F239F /* btPolarDecomposition.cpp in Sources */,
 				835824191F5C9B91006F239F /* btConvexHull.cpp in Sources */,
+				835824381F5C9DE2006F239F /* btBroadphaseProxy.cpp in Sources */,
 				835824181F5C9B91006F239F /* btAlignedAllocator.cpp in Sources */,
 				8358241A1F5C9B91006F239F /* btConvexHullComputer.cpp in Sources */,
+				8358243E1F5C9DE2006F239F /* btQuantizedBvh.cpp in Sources */,
 				8385E3DA1F5B5D010096980E /* ApplePhysics.m in Sources */,
+				835824391F5C9DE2006F239F /* btCollisionAlgorithm.cpp in Sources */,
 				8358241B1F5C9B91006F239F /* btGeometryUtil.cpp in Sources */,
+				8358243C1F5C9DE2006F239F /* btDispatcher.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +336,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"BulletCollision/BroadphaseCollision/**",
+					"../**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -318,6 +382,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"BulletCollision/BroadphaseCollision/**",
+					"../**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
